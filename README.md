@@ -1,5 +1,5 @@
-#此版本可使用[NoobAI Inpainting ControlNet](https://huggingface.co/Wenaka/NoobAI_XL_Inpainting_ControlNet_Full)
-主要修改为改变了默认的预处理方式,原本会以纯白色填充原图的蒙版区域，此版本以纯黑填充。
+# 此版本可使用[NoobAI Inpainting ControlNet](https://huggingface.co/Wenaka/NoobAI_XL_Inpainting_ControlNet_Full)
+### 主要修改为改变了默认的预处理方式,原本会以纯白色填充原图的蒙版区域，此版本以纯黑填充。
 ![5a6157445b7d039545cadf68495b9b34](https://github.com/user-attachments/assets/d93dd610-5b6b-4cb0-92a6-d08691e31117)
 
 
