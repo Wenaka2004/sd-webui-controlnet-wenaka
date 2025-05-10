@@ -608,7 +608,7 @@ class UnetHook(nn.Module):
                     c = hint[:, 0:3, :, :]
                     m = hint[:, 3:4, :, :]
                     m = (m > 0.5).float()
-                    hint = c * (1 - m) - m
+                    hint = c * (1 - m)
 
                 control = param.control_model(
                     x=x_in,
